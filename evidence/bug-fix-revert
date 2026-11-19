@@ -1,0 +1,23 @@
+$ curl -fsSL https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13710 | python -c 'import json,sys; d=json.load(sys.stdin); print(json.dumps({k:d[k] for k in ("number","html_url","state","title","merged")} | {"head":{"label":d["head"]["label"],"ref":d["head"]["ref"], "repo":{k:d["head"]["repo"][k] for k in ("full_name","html_url","fork")}}, "base":{"ref":d["base"]["ref"],"repo":{"full_name":d["base"]["repo"]["full_name"]}}}, indent=2))'
+{
+  "number": 13710,
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/13710",
+  "state": "closed",
+  "title": "Bug fix revert",
+  "merged": false,
+  "head": {
+    "label": "sulthan3849:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "sulthan3849/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/sulthan3849/mcino-Introduction-to-Git-and-GitHub",
+      "fork": true
+    }
+  },
+  "base": {
+    "ref": "main",
+    "repo": {
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}

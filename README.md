@@ -48,6 +48,12 @@ bash tests/test-simple-interest.sh
 The checks cover whole numbers, decimals, zero rate, zero duration, and invalid
 or incomplete input.
 
+## Final project submission
+
+The [submission answers](SUBMISSION.md) contain the five public file URLs and
+four genuine terminal transcripts required by the final-project assessment.
+The [evidence directory](evidence) preserves the named output files.
+
 ## Contributing and community
 
 All contributions, bug reports, bug fixes, documentation improvements,

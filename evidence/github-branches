@@ -1,0 +1,17 @@
+$ git branch -vv
+  bug-fix-revert 084c9f1 [origin/bug-fix-revert] Revert "Fix README footer year from 2022 to 2023"
+  bug-fix-typo   f9ffea3 [origin/bug-fix-typo] Fix README footer year from 2022 to 2023
+* main           f9ffea3 [origin/main] Fix README footer year from 2022 to 2023
+
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/bug-fix-revert
+  origin/bug-fix-typo
+  origin/main
+  upstream/HEAD -> upstream/main
+  upstream/main
+
+$ git branch --merged main
+  bug-fix-typo
+* main
+
