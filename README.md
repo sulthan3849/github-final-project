@@ -54,6 +54,9 @@ The [submission answers](SUBMISSION.md) contain the five public file URLs and
 four genuine terminal transcripts required by the final-project assessment.
 The [evidence directory](evidence) preserves the named output files.
 
+For Option 2, the [peer-review submission](PEER_REVIEW_SUBMISSION.md) provides
+the project title, four URLs, five text answers, and the merge screenshot.
+
 ## Contributing and community
 
 All contributions, bug reports, bug fixes, documentation improvements,
