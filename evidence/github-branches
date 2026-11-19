@@ -14,4 +14,3 @@ $ git branch -r
 $ git branch --merged main
   bug-fix-typo
 * main
-
